@@ -1,0 +1,18 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity feedback is
+	port (
+		input: in std_logic_vector(127 downto 0);
+		output: out std_logic_vector(127 downto 0)
+	);
+end feedback;
+
+architecture behavioral of feedback is
+	signal input_temp: std_logic_vector(127 downto 0);
+	signal output_temp: std_logic_vector(127 downto 0);
+begin
+	input_temp <= input;
+	output_temp <= output;
+	output <= input_temp xor output_temp;
+end architecture behavioral; 

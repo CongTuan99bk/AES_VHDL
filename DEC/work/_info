@@ -1,0 +1,754 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/Study/20202/VLSI/BTL/ENC
+T_opt
+!s110 1623639409
+V5LM2@J_L]CYHkoWkf4U[h3
+04 10 10 work test_bench behavioral 1
+=1-107d1a18d776-60c6c571-9e-2bb4
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+Eadd_roundkey
+Z0 w1623595158
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dF:/Study/20202/VLSI/BTL/DEC
+Z4 8F:/Study/20202/VLSI/BTL/DEC/add_roundkey.vhd
+Z5 FF:/Study/20202/VLSI/BTL/DEC/add_roundkey.vhd
+l0
+L4
+V=aZajd<1?IEaiHMJo[=FG2
+!s100 BDX2fgU:3b[:Va5<ak=j[1
+Z6 OL;C;10.5;63
+32
+Z7 !s110 1623595168
+!i10b 1
+Z8 !s108 1623595168.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/Study/20202/VLSI/BTL/DEC/add_roundkey.vhd|
+Z10 !s107 F:/Study/20202/VLSI/BTL/DEC/add_roundkey.vhd|
+!i113 0
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+Z13 DEx4 work 12 add_roundkey 0 22 =aZajd<1?IEaiHMJo[=FG2
+l14
+L12
+V6LjRl@Qa:Yfg>ZlQOk9hI3
+!s100 XQkkJG<eR^^R_63UPF:j43
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Eaes_dec
+Z14 w1623606495
+Z15 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+R3
+Z16 8F:/Study/20202/VLSI/BTL/DEC/aes_dec.vhd
+Z17 FF:/Study/20202/VLSI/BTL/DEC/aes_dec.vhd
+l0
+L5
+V1QMG`ehTjLgQ[<;XX?]A52
+!s100 >^Q9Q7URD7K8KFoJ;P3aW3
+R6
+32
+Z18 !s110 1623606526
+!i10b 1
+Z19 !s108 1623606526.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/Study/20202/VLSI/BTL/DEC/aes_dec.vhd|
+Z21 !s107 F:/Study/20202/VLSI/BTL/DEC/aes_dec.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+Z22 DEx4 work 14 dec_last_round 0 22 7gcVe^W0:VniM<@U2ce^b2
+Z23 DEx4 work 9 dec_round 0 22 1V28od8][5;hB4Xkl`B342
+R13
+Z24 DEx4 work 13 key_expansion 0 22 hGWLY6DMI^W@i7iVkZd>f0
+R15
+R1
+R2
+DEx4 work 7 aes_dec 0 22 1QMG`ehTjLgQ[<;XX?]A52
+l29
+L15
+Vd;aV<=ahJ>eiHWKScSQl_0
+!s100 @eQl<>7aJ0PZJHliBj9Cd2
+R6
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R11
+R12
+Ecreat_t
+Z25 w1623595463
+R1
+R2
+R3
+Z26 8F:/Study/20202/VLSI/BTL/DEC/creat_t.vhd
+Z27 FF:/Study/20202/VLSI/BTL/DEC/creat_t.vhd
+l0
+L4
+VMOc>jjUOE^9FQaSedHked1
+!s100 z0bfm2U35Bkz`PogJbUgA0
+R6
+32
+Z28 !s110 1623595942
+!i10b 1
+Z29 !s108 1623595942.000000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/Study/20202/VLSI/BTL/DEC/creat_t.vhd|
+Z31 !s107 F:/Study/20202/VLSI/BTL/DEC/creat_t.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+Z32 DEx4 work 9 sub_bytes 0 22 I;gQO;kG?437WjcTM>^?o0
+R1
+R2
+Z33 DEx4 work 7 creat_t 0 22 MOc>jjUOE^9FQaSedHked1
+l16
+L12
+VigQ17c3j0n6W<mBa2;29m0
+!s100 Sdz9jAU6BCYKP8PgOM@I:3
+R6
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 0
+R11
+R12
+Edec_last_round
+Z34 w1623604776
+R1
+R2
+R3
+Z35 8F:/Study/20202/VLSI/BTL/DEC/dec_last_round.vhd
+Z36 FF:/Study/20202/VLSI/BTL/DEC/dec_last_round.vhd
+l0
+L4
+V7gcVe^W0:VniM<@U2ce^b2
+!s100 T5aACE@KF6<G;4cbNz2b>0
+R6
+32
+Z37 !s110 1623604781
+!i10b 1
+Z38 !s108 1623604781.000000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/Study/20202/VLSI/BTL/DEC/dec_last_round.vhd|
+Z40 !s107 F:/Study/20202/VLSI/BTL/DEC/dec_last_round.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R13
+Z41 DEx4 work 13 inv_sub_bytes 0 22 JBlP<1_B[@J]BcdRhda[E0
+Z42 DEx4 work 14 inv_shift_rows 0 22 =8<6`MPSW3=kBZenTH[2e2
+R1
+R2
+R22
+l19
+L12
+Ve^mC0P:`KG7T[GC9F3`D73
+!s100 2IQn<dPlnh7IS=b8Va11e0
+R6
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 0
+R11
+R12
+Edec_round
+Z43 w1623604492
+R1
+R2
+R3
+Z44 8F:/Study/20202/VLSI/BTL/DEC/dec_round.vhd
+Z45 FF:/Study/20202/VLSI/BTL/DEC/dec_round.vhd
+l0
+L4
+V1V28od8][5;hB4Xkl`B342
+!s100 E_>P@[BEXJ:c8:CO5_R?X2
+R6
+32
+Z46 !s110 1623604495
+!i10b 1
+Z47 !s108 1623604494.000000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/Study/20202/VLSI/BTL/DEC/dec_round.vhd|
+Z49 !s107 F:/Study/20202/VLSI/BTL/DEC/dec_round.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+Z50 DEx4 work 15 inv_mix_columns 0 22 SZh_lf3IZkH5`gS=;N4QF0
+R13
+R41
+R42
+R1
+R2
+R23
+l19
+L12
+VmHm6W<SdL_MAi2hg[VhCT1
+!s100 TjPgE8X_7@7b8h?dJ]E3_1
+R6
+32
+R46
+!i10b 1
+R47
+R48
+R49
+!i113 0
+R11
+R12
+Einv_mix_a_column
+Z51 w1623603186
+R1
+R2
+R3
+Z52 8F:/Study/20202/VLSI/BTL/DEC/inv_mix_a_column.vhd
+Z53 FF:/Study/20202/VLSI/BTL/DEC/inv_mix_a_column.vhd
+l0
+L4
+VE<dTDOzMaad_C@5Y3:lX=3
+!s100 2Gbe`C5mQ0C`Y><6^n9Ul1
+R6
+32
+Z54 !s110 1623603188
+!i10b 1
+Z55 !s108 1623603188.000000
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/Study/20202/VLSI/BTL/DEC/inv_mix_a_column.vhd|
+Z57 !s107 F:/Study/20202/VLSI/BTL/DEC/inv_mix_a_column.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+Z58 DEx4 work 5 mul14 0 22 AQjmLRQMAXNVIdEJIVz]T2
+Z59 DEx4 work 5 mul13 0 22 1hVFo>jz?De2:1_Nn5_@E3
+Z60 DEx4 work 5 mul11 0 22 >h]5<:8`W;<1^dnE^VJhR1
+R15
+Z61 DEx4 work 4 mul9 0 22 X@XM:?1D9IYK=6gM_L20W1
+R1
+R2
+Z62 DEx4 work 16 inv_mix_a_column 0 22 E<dTDOzMaad_C@5Y3:lX=3
+l16
+L11
+VBg8Dof[n<Jbo_kdh`RE9G0
+!s100 `_fI`8RmbN30iik2GhTj;3
+R6
+32
+R54
+!i10b 1
+R55
+R56
+R57
+!i113 0
+R11
+R12
+Einv_mix_columns
+Z63 w1623603284
+R1
+R2
+R3
+Z64 8F:/Study/20202/VLSI/BTL/DEC/inv_mix_columns.vhd
+Z65 FF:/Study/20202/VLSI/BTL/DEC/inv_mix_columns.vhd
+l0
+L4
+VSZh_lf3IZkH5`gS=;N4QF0
+!s100 V>iV9c_kBX?PTTNjeOKO00
+R6
+32
+Z66 !s110 1623603287
+!i10b 1
+Z67 !s108 1623603287.000000
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/Study/20202/VLSI/BTL/DEC/inv_mix_columns.vhd|
+Z69 !s107 F:/Study/20202/VLSI/BTL/DEC/inv_mix_columns.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R62
+R1
+R2
+R50
+l13
+L11
+V_gGX;20Gh]F2<e6[R[Ke^3
+!s100 [;]kbHCaJd>PJ;0F3=jmC3
+R6
+32
+R66
+!i10b 1
+R67
+R68
+R69
+!i113 0
+R11
+R12
+Einv_sbox
+Z70 w1623639398
+R1
+R2
+R3
+Z71 8F:/Study/20202/VLSI/BTL/DEC/inv_sbox.vhd
+Z72 FF:/Study/20202/VLSI/BTL/DEC/inv_sbox.vhd
+l0
+L4
+V0:_ZA?>d;3_<ISmU;j95;2
+!s100 YUHn_d6]3_eDA]Pod=<Hj1
+R6
+32
+Z73 !s110 1623639403
+!i10b 1
+Z74 !s108 1623639403.000000
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/Study/20202/VLSI/BTL/DEC/inv_sbox.vhd|
+Z76 !s107 F:/Study/20202/VLSI/BTL/DEC/inv_sbox.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R1
+R2
+Z77 DEx4 work 8 inv_sbox 0 22 0:_ZA?>d;3_<ISmU;j95;2
+l13
+L11
+V]?980WEzzkn9M:<Jh;_bD0
+!s100 dz?<BlSGLNR@^>?d[SgAd3
+R6
+32
+R73
+!i10b 1
+R74
+R75
+R76
+!i113 0
+R11
+R12
+Einv_shift_rows
+Z78 w1623598326
+R1
+R2
+R3
+Z79 8F:/Study/20202/VLSI/BTL/DEC/inv_shift_row.vhd
+Z80 FF:/Study/20202/VLSI/BTL/DEC/inv_shift_row.vhd
+l0
+L4
+V=8<6`MPSW3=kBZenTH[2e2
+!s100 ZJze08fR^XcV=Q0k;49Zb0
+R6
+32
+Z81 !s110 1623598340
+!i10b 1
+Z82 !s108 1623598340.000000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/Study/20202/VLSI/BTL/DEC/inv_shift_row.vhd|
+Z84 !s107 F:/Study/20202/VLSI/BTL/DEC/inv_shift_row.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R1
+R2
+R42
+l12
+L11
+VF9`jhb6FdLZGmem>76hno0
+!s100 fIODhRmbJ^@X322D5>?m`0
+R6
+32
+R81
+!i10b 1
+R82
+R83
+R84
+!i113 0
+R11
+R12
+Einv_sub_bytes
+Z85 w1623595035
+R1
+R2
+R3
+Z86 8F:/Study/20202/VLSI/BTL/DEC/inv_sub_bytes.vhd
+Z87 FF:/Study/20202/VLSI/BTL/DEC/inv_sub_bytes.vhd
+l0
+L7
+VJBlP<1_B[@J]BcdRhda[E0
+!s100 lD78J10WkSe9S0_[EFIi:3
+R6
+32
+Z88 !s110 1623595099
+!i10b 1
+Z89 !s108 1623595099.000000
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/Study/20202/VLSI/BTL/DEC/inv_sub_bytes.vhd|
+Z91 !s107 F:/Study/20202/VLSI/BTL/DEC/inv_sub_bytes.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R77
+R1
+R2
+R41
+l16
+L14
+VcRlj2CM7kR:Rg76nii>Lf0
+!s100 ]ZRSLl^hThIDN<JBhfMoJ2
+R6
+32
+R88
+!i10b 1
+R89
+R90
+R91
+!i113 0
+R11
+R12
+Ekey_expansion
+Z92 w1623595978
+R1
+R2
+R3
+Z93 8F:/Study/20202/VLSI/BTL/DEC/key_expansion.vhd
+Z94 FF:/Study/20202/VLSI/BTL/DEC/key_expansion.vhd
+l0
+L4
+VhGWLY6DMI^W@i7iVkZd>f0
+!s100 WbI17?gTE<bdZfg7Xi?GU0
+R6
+32
+Z95 !s110 1623595989
+!i10b 1
+Z96 !s108 1623595989.000000
+Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/Study/20202/VLSI/BTL/DEC/key_expansion.vhd|
+Z98 !s107 F:/Study/20202/VLSI/BTL/DEC/key_expansion.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R33
+R1
+R2
+R24
+l21
+L12
+VLj8I]>i?B4WfNHSIZ^e2W2
+!s100 _kchbJR4LA6_8=z@Z2?Z;0
+R6
+32
+R95
+!i10b 1
+R96
+R97
+R98
+!i113 0
+R11
+R12
+Emul11
+Z99 w1623599549
+R15
+R1
+R2
+R3
+Z100 8F:/Study/20202/VLSI/BTL/DEC/mul11.vhd
+Z101 FF:/Study/20202/VLSI/BTL/DEC/mul11.vhd
+l0
+L9
+V>h]5<:8`W;<1^dnE^VJhR1
+!s100 UcS7R0POZbXk7?ozL9S]_0
+R6
+32
+Z102 !s110 1623599552
+!i10b 1
+Z103 !s108 1623599552.000000
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/Study/20202/VLSI/BTL/DEC/mul11.vhd|
+Z105 !s107 F:/Study/20202/VLSI/BTL/DEC/mul11.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R15
+R1
+R2
+R60
+l39
+L16
+VWPHAL[c6jImle_[YAbU6b2
+!s100 KBMe54R>hY?5G]8KWE9M31
+R6
+32
+R102
+!i10b 1
+R103
+R104
+R105
+!i113 0
+R11
+R12
+Emul13
+Z106 w1623599793
+R15
+R1
+R2
+R3
+Z107 8F:/Study/20202/VLSI/BTL/DEC/mul13.vhd
+Z108 FF:/Study/20202/VLSI/BTL/DEC/mul13.vhd
+l0
+L9
+V1hVFo>jz?De2:1_Nn5_@E3
+!s100 VU[AVYj>R3lTAT_9V1lT80
+R6
+32
+Z109 !s110 1623599802
+!i10b 1
+Z110 !s108 1623599802.000000
+Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/Study/20202/VLSI/BTL/DEC/mul13.vhd|
+Z112 !s107 F:/Study/20202/VLSI/BTL/DEC/mul13.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R15
+R1
+R2
+R59
+l39
+L16
+V=D[62gAM]0;Zi0=?>PMHA3
+!s100 UTEYCkZ6=UNd^i9boMImE0
+R6
+32
+R109
+!i10b 1
+R110
+R111
+R112
+!i113 0
+R11
+R12
+Emul14
+Z113 w1623600008
+R15
+R1
+R2
+R3
+Z114 8F:/Study/20202/VLSI/BTL/DEC/mul14.vhd
+Z115 FF:/Study/20202/VLSI/BTL/DEC/mul14.vhd
+l0
+L9
+VAQjmLRQMAXNVIdEJIVz]T2
+!s100 ojZK0kSj4AZ4A8gh]73Z@1
+R6
+32
+Z116 !s110 1623600016
+!i10b 1
+Z117 !s108 1623600015.000000
+Z118 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/Study/20202/VLSI/BTL/DEC/mul14.vhd|
+Z119 !s107 F:/Study/20202/VLSI/BTL/DEC/mul14.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R15
+R1
+R2
+R58
+l39
+L16
+VQ<gZhN?gb8IcI8mBK1ZIP0
+!s100 6Peb;JURjLhWCV_i=Ui3B0
+R6
+32
+R116
+!i10b 1
+R117
+R118
+R119
+!i113 0
+R11
+R12
+Emul9
+Z120 w1623599652
+R15
+R1
+R2
+R3
+Z121 8F:/Study/20202/VLSI/BTL/DEC/mul9.vhd
+Z122 FF:/Study/20202/VLSI/BTL/DEC/mul9.vhd
+l0
+L9
+VX@XM:?1D9IYK=6gM_L20W1
+!s100 QKSD3bk:nF?VVEo1C6K<T0
+R6
+32
+Z123 !s110 1623599662
+!i10b 1
+Z124 !s108 1623599662.000000
+Z125 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/Study/20202/VLSI/BTL/DEC/mul9.vhd|
+Z126 !s107 F:/Study/20202/VLSI/BTL/DEC/mul9.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R15
+R1
+R2
+R61
+l39
+L16
+V=SiJFXXZF^AYl[i93X=1z3
+!s100 3`0<IB:=_>jo[B>@C0[OT1
+R6
+32
+R123
+!i10b 1
+R124
+R125
+R126
+!i113 0
+R11
+R12
+Esbox
+Z127 w1623595905
+R1
+R2
+R3
+Z128 8F:/Study/20202/VLSI/BTL/DEC/sbox.vhd
+Z129 FF:/Study/20202/VLSI/BTL/DEC/sbox.vhd
+l0
+L5
+VcnfPeo<9`gBo]NC=b0H5Z0
+!s100 1N9e2]lkL=dCY@BgEDCDQ2
+R6
+32
+Z130 !s110 1623595908
+!i10b 1
+Z131 !s108 1623595908.000000
+Z132 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/Study/20202/VLSI/BTL/DEC/sbox.vhd|
+Z133 !s107 F:/Study/20202/VLSI/BTL/DEC/sbox.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R1
+R2
+Z134 DEx4 work 4 sbox 0 22 cnfPeo<9`gBo]NC=b0H5Z0
+l14
+L12
+VeDS^LLC^X^dZIeIcZ[haH0
+!s100 a6>gF_AGn^ji41e5:jkk_2
+R6
+32
+R130
+!i10b 1
+R131
+R132
+R133
+!i113 0
+R11
+R12
+Esub_bytes
+Z135 w1623595916
+R1
+R2
+R3
+Z136 8F:/Study/20202/VLSI/BTL/DEC/sub_bytes.vhd
+Z137 FF:/Study/20202/VLSI/BTL/DEC/sub_bytes.vhd
+l0
+L7
+VI;gQO;kG?437WjcTM>^?o0
+!s100 UAOGPMC;0Hm8;B;M^Hb2E2
+R6
+32
+Z138 !s110 1623595926
+!i10b 1
+Z139 !s108 1623595926.000000
+Z140 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/Study/20202/VLSI/BTL/DEC/sub_bytes.vhd|
+Z141 !s107 F:/Study/20202/VLSI/BTL/DEC/sub_bytes.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R134
+R1
+R2
+R32
+l16
+L14
+Vzl3JLNo90fFh;ePd3k[Y22
+!s100 FjBSGU75go2=P540R=Y<f3
+R6
+32
+R138
+!i10b 1
+R139
+R140
+R141
+!i113 0
+R11
+R12
+Etest_bench
+Z142 w1623605159
+R15
+R1
+R2
+R3
+Z143 8F:/Study/20202/VLSI/BTL/DEC/test_bench.vhd
+Z144 FF:/Study/20202/VLSI/BTL/DEC/test_bench.vhd
+l0
+L5
+VkWV]E6jnJB;aHIFi0b4U92
+!s100 [T0@PNDC3eRi[6zf5:Xzi1
+R6
+32
+Z145 !s110 1623605163
+!i10b 1
+Z146 !s108 1623605163.000000
+Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|F:/Study/20202/VLSI/BTL/DEC/test_bench.vhd|
+Z148 !s107 F:/Study/20202/VLSI/BTL/DEC/test_bench.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R15
+R1
+R2
+DEx4 work 10 test_bench 0 22 kWV]E6jnJB;aHIFi0b4U92
+l27
+L8
+VcfPZ2:^7c<[IMR:eE^MXh3
+!s100 `3^[lB8JiU8d>MIjNg=iH0
+R6
+32
+R145
+!i10b 1
+R146
+R147
+R148
+!i113 0
+R11
+R12
